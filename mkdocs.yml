@@ -1,0 +1,36 @@
+# Project information
+site_name: 'Jatana AI'
+site_description: 'All the details to integrate and use Jatana AI'
+site_author: 'Rahul Kumar'
+site_url: 'https://www.jatana.ai'
+
+
+
+# Repository
+repo_name: 'jatana-nlp-doc'
+repo_url: 'https://github.com/goodrahstar/jatana-nlp-doc/'
+
+# Copyright
+copyright: 'Copyright &copy; 2019 Rahul Kumar'
+
+markdown_extensions:
+  - admonition
+
+theme:
+  language: 'en'
+  name: 'material'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+nav:
+- Get Started: index.md
+- Installation: installation.md
+- Endpoints: apis.md
+- Language: language.md
+
+
+
